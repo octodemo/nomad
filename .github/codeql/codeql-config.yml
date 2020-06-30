@@ -4,10 +4,4 @@ disable-default-queries: true
 
 queries:
   - name: Use external queries (run a folder of queries from an external QL pack)
-    uses: github/codeql-go/ql/src/Security@master
-  - name: Use external queries (run a folder of queries from an external QL pack)
-    uses: github/codeql-go/ql/src/codeql-suites@master
-  - name: Use external queries (run a folder of queries from an external QL pack)
-    uses: github/codeql-go/ql/src/experimental@master
-  - name: Use external queries (run a folder of queries from an external QL pack)
-    uses: github/codeql-go/ql/src/semmle/go@master
+    uses: github/codeql-go/ql/src/codeql-suites/go-security-extended.qls@master
